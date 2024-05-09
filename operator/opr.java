@@ -3,33 +3,37 @@
 import java.util.Scanner;
 class opr{
   public static void main(String args[]){
+int a,rm,n;
 Scanner rk=new Scanner(System.in);
-System.out.println("Enter the number:");
-int a=rk.nextInt();
+System.out.println("Enter the number:"); a=rk.nextInt();
 
- int hun=a/100;
- System.out.println("Nodes of 100:"+hun);
+ n=a/100;
+ System.out.println("Nodes of 100:"+n);
+  rm=a-n*100;
 
- int fifty;
- fifty=a%hun/50;
- System.out.println("Nodes of 50:"+fifty);
+ n=rm/50;
+ System.out.println("Nodes of 50:"+n);
+rm=rm-n*50;
 
- int twenty;
-twenty=a%hun%fifty/20;
-System.out.println("Nodes of 20:"+twenty);
+n=rm/20;
+System.out.println("Nodes of 20:"+n);
+rm=rm-n*20;
 
-int ten=a%hun%fifty%twenty/10;
-System.out.println("Nodes of 10:"+ten);
+n=rm/10;
+System.out.println("Nodes of 10:"+n);
+rm=rm-n*10;
 
-int five=a%hun%fifty%twenty%ten/5;
-System.out.println("Nodes of 5"+five);
+n=rm/5;
+System.out.println("Nodes of 5:"+n);
+rm=rm-n*5;
 
-int two=a%hun%fifty%twenty%ten/2;
-System.out.println("Nodes of 2"+two);
+n=rm/2;
+System.out.println("Nodes of 2:"+n);
+rm=rm-n*2;
 
-int one=a%hun%fifty%twenty%ten%two/1;
-System.out.println("nodes of 1"+one);
-
+n=rm/1;
+System.out.println("nodes of 1:"+n);
+rm=rm-n*1;
 }
 }
 
