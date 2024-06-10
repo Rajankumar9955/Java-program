@@ -5,7 +5,8 @@ public static void main(String args[]){
 char c;
 Scanner rk=new Scanner(System.in);
 System.out.println("Enter any characte");
-c=next().charAt(0);
+c=rk.next().charAt(0);
+
 switch(c){
 case 'a':
 case 'A':

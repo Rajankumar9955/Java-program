@@ -15,8 +15,3 @@ System.out.println(n+"is a negative number");
 }
 }
 }
-
-
-
-
-(

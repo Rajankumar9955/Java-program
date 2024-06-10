@@ -9,3 +9,5 @@ int last=n%10;
 System.out.println("last digit:"+last);
 }
 }
+
+// output:-last digit:3

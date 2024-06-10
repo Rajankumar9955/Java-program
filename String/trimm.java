@@ -13,7 +13,7 @@ System.out.println("Length of after trim:"+s.length());
 */
 
 //valueOf method() in java
-int a=1234;
+int a=12345;
 String x=String.valueOf(a);
 System.out.println(x.length());
 }
