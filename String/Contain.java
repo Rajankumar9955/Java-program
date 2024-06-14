@@ -25,7 +25,7 @@ boolean endswith();
 */
  
 /*String str="www.cybrom.com";
-boolean b= str.endsWith(".com);
+boolean b= str.endsWith(".com");
 System.out.println(b);
 b=str.endsWith("www")
 System.out.println(b);*/
