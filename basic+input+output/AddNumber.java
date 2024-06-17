@@ -4,9 +4,9 @@ import java.util.Scanner;
 class AddNumber{
 public static void main(String args[]){
    //step:2
- Scanner kb=new Scanner(Scanner.in);
+ Scanner kb=new Scanner(System.in);
  //step:3
- System.out.prinln("Enter First Number:");
+ System.out.println("Enter First Number:");
 int n1=kb.nextInt();
 System.out.println("Enter Second Number:");
 int n2=kb.nextInt();

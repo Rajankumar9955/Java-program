@@ -1,4 +1,4 @@
-import util.java.Scanner;
+import java.util.Scanner;
 class AverageCal{
 public static void main(String args[]){
 Scanner rk=new Scanner(System.in);
