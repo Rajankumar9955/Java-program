@@ -6,7 +6,7 @@ public class Q4 {
         for(int i=0; i<s.length(); ++i)
         {
             ch=s.charAt(i);
-            for(int j=0; j<s.length(); ++j)
+            if(ch>='a' && ch<='z')
             {
                 
             }
