@@ -8,12 +8,12 @@ public static int  fact(int n){
     }
     else 
 	{
-	   return n*(fact-1);
+	   return n*fact(n-1);
 	}
 
-{
+}
 public static void main(String args[]){
- Sysetem.out.println("factorial:"+fact(5));
+ System.out.println("factorial:"+fact(5));
 }
 }
  

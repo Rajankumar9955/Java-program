@@ -1,6 +1,6 @@
 //recursion
 
-class fac{
+class Factorial{
 public static int  fact(int n){
       if(n==1)
     {
@@ -12,7 +12,7 @@ public static int  fact(int n){
 	}
 
 {
-public static void main(String args[]){
+public static void main(){
  Sysetem.out.println("factorial:"+fact(5));
 }
 }
