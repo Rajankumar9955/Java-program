@@ -57,8 +57,6 @@ System.out.println("First array:");
             }
             System.out.println("");
         }
-
-
     }
      
 }
