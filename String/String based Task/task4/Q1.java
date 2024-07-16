@@ -17,7 +17,7 @@ public class Q1 {
         String srch=sc.nextLine();
         for(int i=0; i<a.length; ++i)
         {
-              if(a[i]==srch)
+              if(a[i].equalsIgnoreCase(srch))
               {
                      System.out.println("This is valid");
                      break;
