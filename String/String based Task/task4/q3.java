@@ -1,27 +1,25 @@
-/*3. Write a program in java to convert a string to lowercase without using
-pre-defined function
+/*   3. Write a program in java to find the number of times a given word 
+appears in the given string.
 Test Data :
-Input a string in UPPERCASE : THE QUICK BROWN FOX JUMPS
-OVER THE LAZY DOG.
+Input the string : The string where the word the present more than once.
 Expected Output :
-Here is the above string in lowercase :
-the quick brown fox jumps over the lazy dog.
+The frequency of the word 'the' is : 3
 */
-
-public class q3 {
+import java.util.Scanner;
+public class Q3 {
     public static void main(String[] args) {
-        String s= "THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG.";
-        char ch[]=s.toCharArray();
-        for(int i=0; i<ch.length; ++i)
+        Scanner sc=new Scanner(System.in);
+        String s="The string where the word the present more than once";
+        String sp[]=s.split(" ");
+        int v=0;
+        for(int i=0; i<sp.length; ++i)
         {
-           if(ch[i]>='A' && ch[i]<='Z')
-           {
-            ch[i]=(char)(ch[i]+32);
-           }
+            if(sp[i].equalsIgnoreCase("the"))
+            {
+                v++;
+            }
         }
-        s=new String(ch);
-        System.out.println(s);
-
+       System.out.println("The frequency of the word 'the' is :"+v);
     }
     
 }

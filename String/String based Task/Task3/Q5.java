@@ -3,6 +3,7 @@ public class Q5 {
     public static void main(String[] args) {
         String arr= new String("w3resource");
         System.out.println("Before sorting");
+        System.out.println(arr);
         char c[]=arr.toCharArray();
         int ch=c.length;
         int s=0;
@@ -19,6 +20,7 @@ public class Q5 {
                 }
              }
         }
+        System.out.println("After sorting");
         for(int i=0; i<ch; ++i)
         {
             System.out.print(c[i]);
