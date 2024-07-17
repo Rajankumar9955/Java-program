@@ -1,4 +1,12 @@
+/*
+ 3. Write a program in Java to count total number of vowel or consonant
+in a string.
 
+Test Data :
+Input the string : Welcome to w3resource.com
+Expected Output :
+The total number of vowel in the string is : 9
+ */
 public class Q3 {
     public static void main(String[] args) {
         String s= new String("Welcome to w3resource.com");

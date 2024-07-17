@@ -13,19 +13,16 @@ public class Q1 {
         Scanner sc=new Scanner(System.in);
         String s="This is a test string";
         String a[]=s.split(" ");
-        System.out.println("Enter the word for search");
+        System.out.println("Input the substring to be search");
         String srch=sc.nextLine();
-        for(int i=0; i<a.length; ++i)
+        boolean result=s.contains(srch);
+        if(result)
         {
-              if(a[i].equalsIgnoreCase(srch))
-              {
-                     System.out.println("This is valid");
-                     break;
-              }
-              else{
-                     System.out.println("This is not valid");
-                     break;
-              }
+              System.out.println("The substring is exists in the string:"+srch);
+        }
+        else
+        {
+              System.out.println("The substring is not exists in the string:"+srch);
         }
 
 
