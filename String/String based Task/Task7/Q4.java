@@ -26,7 +26,7 @@ public class Q4 {
                     ch[j]=temp;
                 }
             }
-            res=res+ch[i];
+            res+=ch[i];
         }
        
           System.out.println(res);

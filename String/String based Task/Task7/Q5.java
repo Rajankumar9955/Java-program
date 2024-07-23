@@ -1,12 +1,4 @@
-/*Sort a String in Java
-
-Input string : "axbycz"
-Output string : "abcxyz"
-Input: str = “GeeksForGeeks”
-Output: No
-Explanation: The given string does not contain all the letters from a to z
-(ignoring case).
-
+/* 
 Q5. Check if a given string is Pangram in Java?
 
 A string is a pangram string if it contains all the character of
