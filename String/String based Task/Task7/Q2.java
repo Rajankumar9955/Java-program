@@ -1,4 +1,11 @@
+/*Remove Leading Zeros From String in Java?
+Example:
 
+Input : 00000123569
+Output: 123569
+Input: 000012356090
+Output: 12356090
+ */
 import java.util.Scanner;
 public class Q2 {
     public static void main(String[] args) {

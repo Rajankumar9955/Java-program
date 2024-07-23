@@ -1,4 +1,13 @@
+/*Replace a character at a specific index in a
+String in Java
 
+Examples of Replacing Characters in a String
+Input: String = "Geeks Gor Geeks", index = 6, ch = 'F'
+Output: "Geeks For Geeks."
+
+Input: String = "Geeks", index = 0, ch = 'g'
+Output: "geeks"
+ */
 
 import java.util.Scanner;
 public class Q1 {
