@@ -13,6 +13,6 @@ public class fibonacci {
         }
     }
     public static void main(String args[]){
-         fibo(8);
+         fibo(5);
     }
 }

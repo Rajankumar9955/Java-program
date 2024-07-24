@@ -1,5 +1,3 @@
-
-
 public class QueueDemo {
     int q[]=new int[5];
     int front=-1;
@@ -88,3 +86,4 @@ public class QueueDemo {
         qb.display();
     }
 }
+
