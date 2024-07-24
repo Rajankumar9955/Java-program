@@ -21,6 +21,13 @@ public class createStartNode {
               }
           }
     }
+    public createStartNode addAtStart(createStartNode head, int d)
+    {
+         createStartNode newStart=new createStartNode(d);
+         newStart.nxt=head;
+         head=newStart;
+         return head;
+    }
    public static void main(String[] args) {
     createStartNode first=new createStartNode(10);
     createStartNode second =new createStartNode(20);
@@ -31,6 +38,9 @@ public class createStartNode {
     h.nxt.nxt=third;
     h.nxt.nxt.nxt=four;
     System.out.println("This is singly linked list");
+    h.printData(h);
+    h=h.addAtStart(h,5);
+    System.out.println("\nData insert new node at start");
     h.printData(h);
    }
 }
