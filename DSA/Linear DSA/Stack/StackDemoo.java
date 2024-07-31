@@ -89,6 +89,7 @@ public class StackDemoo {
 
        System.out.println("Deleted element:"+st.isEmpty());
     }
- 
 }
+ 
+ 
 

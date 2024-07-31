@@ -53,7 +53,9 @@ public class twelve {
             System.out.println("sheep");
         }
 
-
+        sc.close();
     }
+
 }
+    
 
