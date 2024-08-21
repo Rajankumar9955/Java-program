@@ -1,3 +1,9 @@
+
+/*
+Write a program to create an integer array to store 5 integers. Accept the five integer values from user and print them on console.
+* */
+
+
 import java.util.Scanner;
 
 public class Q1 {
