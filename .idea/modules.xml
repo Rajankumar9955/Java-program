@@ -3,10 +3,13 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Array/Array.iml" filepath="$PROJECT_DIR$/Array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array/Array Based Questions/Array Based Questions.iml" filepath="$PROJECT_DIR$/Array/Array Based Questions/Array Based Questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-program.iml" filepath="$PROJECT_DIR$/Java-program.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/MutiThreading/MutiThreading.iml" filepath="$PROJECT_DIR$/DSA/MutiThreading/MutiThreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/Oops/Oops.iml" filepath="$PROJECT_DIR$/Oops/Oops.iml" />
       <module fileurl="file://$PROJECT_DIR$/Oops/Polymorphism/Polymorphism.iml" filepath="$PROJECT_DIR$/Oops/Polymorphism/Polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Array/Questions/Questions.iml" filepath="$PROJECT_DIR$/Array/Questions/Questions.iml" />
       <module fileurl="file://$PROJECT_DIR$/loops/loops.iml" filepath="$PROJECT_DIR$/loops/loops.iml" />
     </modules>
   </component>

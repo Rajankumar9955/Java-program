@@ -1,6 +1,6 @@
 public class SinglyLinkedList
 {
-    private  node head;
+  /*  private  node head;
     private node tail;
 
     public SinglyLinkedList()
@@ -18,4 +18,6 @@ public class SinglyLinkedList
         sb.setNext(head);
     }
     return true
+
+   */
 }
