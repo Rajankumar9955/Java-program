@@ -13,7 +13,7 @@ public static int  fact(int n){
 
 }
 public static void main(String args[]){
- System.out.println("factorial:"+fact(5));
-}
+    System.out.println("factorial:"+fact(5));
+ }
 }
  

@@ -10,33 +10,35 @@ indexOfMaximumElement = 1
 import java.util.Scanner;
 
 public class q9 {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter the Number:");
-        int num=sc.nextInt();
-        int []arr=new int[num];
-        int mx=arr[0];
-        int mn=arr[0];
-        for(int i=0; i<num; ++i)
+     static  int[] arr = {51, 100, 2, 8 , 45, 7};
+
+    public static int Largest()
+    {
+        int max=arr[0];
+         for(int i=0; i<arr.length; ++i)
+         {
+             if(arr[i]>max)
+             {
+                 max=arr[i];
+             }
+         }
+         return  max;
+    }
+    public static int smallest()
+    {
+        int min=arr[0];
+        for(int i =0; i<arr.length;++i)
         {
-            System.out.println("Enter the Elements:");
-            arr[i]=sc.nextInt();
-        }
-        for(int i=0; i<arr.length; ++i)
-        {
-              if(arr[i]>mx) {
-                  mx = arr[i];
-                  System.out.println("max Position:"+i);
-                  break;
-              }
-        }
-        for(int i=0; i<arr.length; ++i)
-        {
-            if(arr[i]<arr[i+1])
+            if(arr[i]<min)
             {
-                mn=arr[i];
-                System.out.println("min Position"+i);
+                min=arr[i];
             }
         }
+        return  min;
+    }
+    public static void main(String[] args) {
+        System.out.println("Max Element:"+Largest());
+        System.out.println("Min Element:"+smallest());
+
     }
 }
