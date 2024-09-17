@@ -1,5 +1,5 @@
 //class task
-
+import java.util.Scanner;
 class str2Class{
 public static void main(String args[]){
 Scanner sc = new Scanner(System.in);
