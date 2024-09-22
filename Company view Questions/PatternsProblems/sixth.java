@@ -1,5 +1,3 @@
-package PatternsProblems;
-
 public class sixth {
     public static void main(String[] args) {
         int n=5; 

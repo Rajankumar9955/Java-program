@@ -1,4 +1,4 @@
-package PatternsProblems;
+
 public class seventh {
     public static void main(String[] args) {
         int n=5; 
