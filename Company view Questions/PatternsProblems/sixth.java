@@ -1,8 +1,9 @@
 package PatternsProblems;
-public class fifth {
+
+public class sixth {
     public static void main(String[] args) {
-        int n=5;
-        for(int i=n; i>=1; i--)
+        int n=5; 
+        for(int i=1; i<=n; ++i)
         {
             for(int j=i; j<n; ++j)
             {
@@ -15,4 +16,5 @@ public class fifth {
             System.out.println();
         }
     }
+    
 }
