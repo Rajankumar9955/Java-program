@@ -1,4 +1,4 @@
-package PatternsProblems;
+
 
 public class nineth {
     public static void main(String[] args) {
