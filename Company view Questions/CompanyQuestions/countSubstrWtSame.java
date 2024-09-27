@@ -1,3 +1,4 @@
+/*ount SubstringWithEqualEnds */
 public class countSubstrWtSame {
     public static boolean checkEquility(String s)
     {
