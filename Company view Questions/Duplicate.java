@@ -1,10 +1,25 @@
+// import java.util.HashSet;
+
+// public class Duplicate {
+//     public static void main(String[] args) {
+//         int arr[]={1,2,2,3,4,4};
+//         HashSet<Integer>set=new HashSet<>();
+//         for( int num:arr)
+//         {
+//             set.add(num);
+//         }
+//         System.out.println(set);
+//     }
+// }
+
 import java.util.HashSet;
 
-public class Duplicate {
-    public static void main(String[] args) {
+public class Duplicate{
+    public static void main(String[] args)
+    {
         int arr[]={1,2,2,3,4,4};
         HashSet<Integer>set=new HashSet<>();
-        for( int num:arr)
+        for(int num:arr)
         {
             set.add(num);
         }
