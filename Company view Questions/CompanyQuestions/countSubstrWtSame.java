@@ -15,7 +15,9 @@ public class countSubstrWtSame {
             {
                  if(checkEquility(s.substring(i,i+len)))
                  {
+
                     result++;
+                    
                  } 
             }
         }
