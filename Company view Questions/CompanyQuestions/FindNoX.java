@@ -25,7 +25,9 @@ public class FindNoX {
         }
         j++;
     }
+
     return res;
+    
 }
  
 // Driver Code
