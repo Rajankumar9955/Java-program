@@ -14,8 +14,8 @@ public class backSwapping {
         b[i]=b[j];
         b[j]=ch;
         return String.valueOf(b);
-
     }
+    
     public static void generatePermutation(String str,int start,int end)
     {
         if(start==end-1)
