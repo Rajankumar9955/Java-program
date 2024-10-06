@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class lgsubbypalilndrome {
     public static int longestSubstring(String s)
     {
+        
         // Initialize dp array of size 1024
         int dp[] = new int[1024];
  
