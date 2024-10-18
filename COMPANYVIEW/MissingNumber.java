@@ -1,5 +1,5 @@
 
-
+// MissingNumber in a Arrays
 public class MissingNumber {
     public static void main(String[] args) {
         int arr[]={1,2,3,4,6,7};
