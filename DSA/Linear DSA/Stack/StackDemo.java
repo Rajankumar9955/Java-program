@@ -1,5 +1,4 @@
 
-
 public class StackDemo {
     int stack[]=new int[5];
     int top=-1;
