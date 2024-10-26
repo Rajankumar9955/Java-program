@@ -87,6 +87,7 @@ public class QueueDemo {
     // }
 
 
+    
 int q[]=new int[3];
 int rear=-1;
 int front=-1;
