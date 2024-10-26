@@ -64,7 +64,6 @@ public class StackDemoo {
         return top==Stack.length-1? true:false;
     }
 
-
     public static void main(String args[])
     {
        StackDemoo st=new StackDemoo();
