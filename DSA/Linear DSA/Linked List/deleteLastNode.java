@@ -35,7 +35,6 @@ public class deleteLastNode {
                 temp=temp.next;
             }
             temp.next=null;
-            
         }
         return head;
     }
