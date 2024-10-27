@@ -48,6 +48,7 @@ public fullNode  addLst(fullNode head,int d){
     public fullNode posiSp(fullNode head,int d)
     {
         fullNode sp=new fullNode(d);
+        return sp;
     }
     
 }
