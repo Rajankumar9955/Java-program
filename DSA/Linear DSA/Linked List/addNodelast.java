@@ -66,6 +66,5 @@ public class addNodelast {
         System.out.println("\n print data after add new Node at end");
         h=h.addAtEnd(h,50);
         h.printData(h); 
-        
     }
 }
