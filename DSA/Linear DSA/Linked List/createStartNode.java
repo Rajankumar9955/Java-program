@@ -1,4 +1,3 @@
-
 public class createStartNode {
     int data;
     createStartNode nxt;
