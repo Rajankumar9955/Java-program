@@ -18,7 +18,6 @@ public class deleteFirst {
                 System.out.println("Your data is +>"+temp.data);
                  temp=temp.next;
               }
-              
         }
     }
     public deleteFirst dltfrst(deleteFirst head)
