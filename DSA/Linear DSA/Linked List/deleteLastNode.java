@@ -51,10 +51,5 @@ public class deleteLastNode {
         hd=hd.deleteLast(hd);
         System.out.println(" after deleted node in singly linked list:");
         hd.printData(hd);
-
-
-
     }
-   
-
 }
