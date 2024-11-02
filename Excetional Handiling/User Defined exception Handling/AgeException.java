@@ -1,5 +1,4 @@
 
-
 public class AgeException extends Throwable{
     String msg;
     public AgeException(String msg)
