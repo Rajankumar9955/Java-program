@@ -14,6 +14,7 @@ public class reverseInteger {
             }
             reverse=(reverse*10)+con;
           }
+          
           return reverse;
     }
    public static void main(String[] args) {
