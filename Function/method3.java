@@ -14,7 +14,6 @@ public class method3 {
         System.out.println("Enter the second number:");
         int n2=sc.nextInt();
 
-
         add(100,200);//calling of the Addition function 
         add(n1,n2);//actual parameter
     }
