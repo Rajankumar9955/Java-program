@@ -11,13 +11,10 @@ public static int add(){
         int b=sc.nextInt();
 int c=a+b;
 return c;
-
-
 }
 public static void main(String args[]){
 
    int res=add();
 System.out.println(res);
 }
-
 }
