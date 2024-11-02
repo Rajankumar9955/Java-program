@@ -25,7 +25,5 @@ public class Q4 {
         System.out.println("Total marks out of 500:"+total);
         int per=(math+eng+sci+art+com)/5;
         System.out.println("Percent of marks:"+per+"%");
-
-        
     }
 }
