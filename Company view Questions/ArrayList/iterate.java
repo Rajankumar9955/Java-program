@@ -1,9 +1,8 @@
 // Java program to demonstrate iteration over  
 // Map.entrySet() entries using for-each loop 
-  
+
 import java.util.Map; 
 import java.util.HashMap; 
-  
 class Iteration 
 { 
     public static void main(String[] arg) 
