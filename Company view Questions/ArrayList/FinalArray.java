@@ -1,15 +1,8 @@
-
-
-import java.util.*;
-public class FinalArray {
-    
-
 // Java Program to Illustrate Final Arrays
 // Can Be Reassigned But Not Re-referred
 
-
-
-
+import java.util.*;
+public class FinalArray {
     public static void main(String[] args)
     {
 
