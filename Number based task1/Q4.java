@@ -8,7 +8,6 @@ public class Q4 {
         int sci;
         int art;
         int com;
-       
         System.out.println("Enter marks out of 100");
         System.out.println("Enter math Marks:");
         math=sc.nextInt();
