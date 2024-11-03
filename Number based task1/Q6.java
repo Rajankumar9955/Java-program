@@ -7,7 +7,7 @@ public class Q6 {
           int age=sc.nextInt();
           if(age>0 && age<17)
           {
-            System.out.println("Your are Not eligibile for vote");
+            System.out.println("You are Not eligibile for vote");
           }
           else if(age>18)
           {
