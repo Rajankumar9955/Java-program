@@ -1,6 +1,5 @@
 public class jagged {
     
-
 // Program to demonstrate 2-D jagged array in Java
 
     public static void main(String[] args)
