@@ -32,7 +32,6 @@ class rotate {
             } 
             my_list.set(0, temp); 
         } 
-  
         // Printing list after rotation 
         System.out.println( 
             "List After Rotation :  "
