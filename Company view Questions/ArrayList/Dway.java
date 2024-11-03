@@ -4,7 +4,6 @@ import java.io.*;
 public class Dway {
     public static void main(String[] args)
     {
-
         int[][] integer2DArray; // 2D integer array
         String[][] string2DArray; // 2D String array
         double[][] double2DArray; // 2D double array
