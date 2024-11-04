@@ -1,6 +1,5 @@
 // Java Program to demonstrate Instance Variable
 import java.io.*;
-
 class create2 {
     private String name;
     public void setName(String name) { this.name = name; }
