@@ -1,4 +1,5 @@
 
+
 public class Three {
     public static int nthTerm(int N)
     {
