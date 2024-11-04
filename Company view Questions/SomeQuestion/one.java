@@ -1,4 +1,5 @@
 
+
 public class one {
     public static int NthTerm(int n)
     {
