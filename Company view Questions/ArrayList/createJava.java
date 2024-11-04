@@ -1,11 +1,8 @@
-public class createJava {
-    
-
 // Java program to illustrate creating an array
 // of integers,  puts some values in the array,
 // and prints each value to standard output.
 
-
+public class createJava {
     public static void main(String[] args)
     {
         // declares an Array of integers.
