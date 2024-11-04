@@ -1,4 +1,5 @@
 // Java Program to demonstrate Class Variable
+
 import java.io.*;
 class create3 {
     // class variable
