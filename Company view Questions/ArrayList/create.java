@@ -1,4 +1,5 @@
 // Java program to demonstrate use of Clas Variable
+
 class create {
     public static int ctr = 0;
     public GFG() { ctr++; }
