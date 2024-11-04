@@ -1,5 +1,4 @@
 // Java Program to implement
-// System.out
 import java.io.*;
 // Driver Class
 class create4{
