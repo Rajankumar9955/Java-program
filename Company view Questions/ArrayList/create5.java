@@ -1,5 +1,5 @@
 // Java program to demonstrate
-// System.err
+
 import java.io.*;
 // Driver Class
 class create5 {
