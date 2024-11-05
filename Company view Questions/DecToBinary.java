@@ -1,3 +1,4 @@
+// Decemal to Binary 
 public class DecToBinary {
     public static void main(String[] args) {
         int num=10;
