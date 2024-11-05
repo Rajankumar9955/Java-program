@@ -12,8 +12,8 @@
 //     }
 // }
 
-import java.util.HashSet;
 
+import java.util.HashSet;
 public class Duplicate{
     public static void main(String[] args)
     {
