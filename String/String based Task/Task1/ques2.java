@@ -26,5 +26,4 @@ public class ques2 {
         }
         sc.close(); 
     }
-    
 }
