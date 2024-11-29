@@ -44,7 +44,18 @@ public class ques1{
         {
              System.out.println(c[i]+ ":"+c[i].length());
         }
-       
+        char ch[]=s.toCharArray();
+        for(int i=0; i<ch.length; i++)
+        {
+            if(ch[i]=='b')
+            {
+                System.out.println("index of b:"+ i);
+            }
+            else if(ch[i]=='t')
+            {
+                System.out.println("index of t:"+i);
+            }
+        }
 
 
     }
