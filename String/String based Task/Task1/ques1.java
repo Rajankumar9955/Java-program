@@ -56,6 +56,13 @@ public class ques1{
                 System.out.println("index of t:"+i);
             }
         }
+        for(int i=0; i<c.length;i++)
+        {
+            if(c[i].charAt(0)=='b')
+            {
+                System.out.println(c[i]);
+            }
+        }
 
 
     }
