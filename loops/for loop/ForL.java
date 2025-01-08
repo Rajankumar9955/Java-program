@@ -1,4 +1,4 @@
-//for loop
+//for loop this is also called entry point loop
 class ForL{
 public static void main(String args[]){
 int a;
